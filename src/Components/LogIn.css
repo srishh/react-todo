@@ -1,0 +1,19 @@
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user, .pwd, .btn {
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid lightsteelblue;
+    border-radius: 5px;
+}
+
+.btn {
+    background: linear-gradient(white, lightsteelblue);
+    width: 200px;
+}
